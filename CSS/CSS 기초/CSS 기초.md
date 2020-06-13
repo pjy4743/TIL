@@ -112,6 +112,35 @@
        ```
 
 5. 스타일 주석
+
    - 소스에 설명을 붙이는 것
+
    - /* **이 사이에 주석의 내용을 입력 ** */
 
+     ![https://raw.githubusercontent.com/pjy4743/TIL/master/CSS/CSS%20%EA%B8%B0%EC%B4%88/images/css-comment.png](https://raw.githubusercontent.com/pjy4743/TIL/master/CSS/CSS 기초/images/css-comment.png)
+
+     ```css
+     /* 예제 - css-comment.html */
+     
+     <!DOCTYPE html>
+     <html lang="ko" dir="ltr">
+       <head>
+         <meta charset="utf-8">
+         <title>CSS 적용해 보기</title>
+         <style>
+           /* h2 제목과
+           텍스트 단락의
+           스타일을 조절해 보자
+           */
+           h2 {
+             font-size:20px;
+             color:orange;
+           }
+           p {
+             color:blue;
+           }
+         </style>
+       </head>
+     ```
+
+     
